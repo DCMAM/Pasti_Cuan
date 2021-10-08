@@ -1,0 +1,40 @@
+.stock-list {
+    margin: 32px 0px;
+    /* background-color: red; */
+}
+
+.stock {
+    background-color: #2E2E2E;
+    color: white;
+    margin: 8px 0px;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stock-list-button {
+    padding: 2px 8px;
+}
+
+.stock-list-button:hover {
+    background-color: #02006c;
+    color: white;
+}
+
+.stock-detail {
+    width: 75%;
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.decision {
+    width: 25%;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.decision button {
+    padding: 6px 12px;
+}

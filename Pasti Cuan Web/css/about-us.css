@@ -1,0 +1,102 @@
+#content {
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+#container {
+    width: 80%;
+    /* background-color: blueviolet; */
+    justify-content: center;
+}
+
+.brand-intro {
+    display: flex;
+    padding: 32px;
+    justify-content: center;
+    /* background-color: red; */
+}
+
+.brand-logo img {
+    max-width: 250px;
+    height: auto;
+}
+
+.brand-vission-mission {
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+.vission-mission {
+    padding: 12px;
+}
+
+.vission-mission-heading {
+    display: flex;
+    justify-content: center;
+}
+
+.container-h1-ourteam {
+    margin: 32px;
+    display: flex;
+    justify-content: center;
+}
+
+.our-team {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.card {
+    margin: 20px;
+    padding: 0px;
+    /* box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6); */
+    box-shadow: 10px 10px grey;
+    color: black;
+}
+
+
+/* .card:hover {
+    transform: rotateY(180deg);
+} */
+
+.card-img {
+    display: flex;
+    justify-content: center;
+}
+
+.card-img img {
+    max-width: 370px;
+    height: auto;
+    object-fit: contain;
+}
+
+.card-container {
+    padding: 0 16px;
+    background-color: white;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+.contact-container {
+    margin-top: 16px;
+    margin-bottom: 8px;
+}
+
+.button:hover {
+    background-color: #555;
+}
